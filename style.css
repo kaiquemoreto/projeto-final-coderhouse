@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* RESET CSS:
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*/
+
 *, :root {
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -16,5 +25,17 @@
 }
 
 nav li {
-    display: inline-block;
+    display: inline;
+}
+
+nav li a {
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    font-weight: 600;
+    color:gray;
+    text-decoration: none;
 }
