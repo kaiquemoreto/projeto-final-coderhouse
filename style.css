@@ -17,15 +17,40 @@
     font-style: normal;
 }
 
-#headTitle {
+header {
+    display: block;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    background-color: white;
+    padding: 1px;
+}
+
+.titlepage {
     font-family: "Beau Rivage", cursive;
     font-weight: 400;
     font-size: 48px;
-    font-style: normal
+    font-style: normal;
+    margin: 0px;
 }
 
-nav li {
-    display: inline;
+nav {
+    list-style: none;
+    position: sticky;
+    top: 65px;
+    text-align: center;
+    background-color: white;
+    padding: 0px 0px 10px 0px;
+}
+
+.menu__item {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0%;
 }
 
 nav li a {
