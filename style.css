@@ -13,6 +13,10 @@
     font-style: normal;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
 header {
     display: block;
     position: sticky;
@@ -66,8 +70,65 @@ nav li a:hover {
 
 .section {
     width: auto;
-    height: 550px;
+    height: 600px;
     background-color: aquamarine;
+}
+
+.section_apresentacao {
+    width: auto;
+    height: 600px;
+    display: flex;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+}
+
+#img_apresentacao {
+    display: flex;
+    width: auto;
+    height: 400px;
+    margin: 50px;
+}
+
+#text_apresentacao {
+    width: auto;
+    height: auto;
+    margin: 50px;
+}
+
+.section_frase {
+    display: flex;
+    width: auto;
+    height: 600px;
+    background-image: url(./src/plant_index.jpg);
+    background-size:cover;
+    background-position: center;
+    align-items: center;
+    justify-content: end;
+}
+
+#text_frase{
+    width: 50%;
+    text-align: right;
+    padding: 100px;
+}
+
+.section_projeto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center ;
+    width: auto;
+    height: 600px;
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+.projeto_item {
+    height: 400px;
+    width: 400px;
+    margin: 5px;
+    background-color: white;
 }
 
 .politicas {
