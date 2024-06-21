@@ -100,7 +100,7 @@ nav li a:hover {
     display: flex;
     width: auto;
     height: 600px;
-    background-image: url(/src/plant_index.jpg);
+    background-image: url(./src/plant_index.jpg);
     background-size:cover;
     background-position: center;
     align-items: center;
@@ -134,17 +134,17 @@ nav li a:hover {
 }
 
 #instagram_item {
-    background-image: url(/src/Instagram_img.jpg);
+    background-image: url(./src/Instagram_img.jpg);
     background-position: center;
 }
 
 #cursos_item {
-    background-image: url(/src/Cursos_img.jpg);
+    background-image: url(./src/Cursos_img.jpg);
     background-position: center;
 }
 
 #medium_item {
-    background-image: url(/src/Medium_img.jpg);
+    background-image: url(./src/Medium_img.jpg);
 }
 
 .politicas {
